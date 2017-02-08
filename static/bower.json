@@ -1,0 +1,24 @@
+{
+  "name": "nanio-lightshow",
+  "description": "NanIO Lightshow Bluetooth Control",
+  "main": "main.js",
+  "authors": [
+    "nagyben"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-colorpicker": "^2.5.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "socket.io-client": "^1.7.2",
+  }
+}

@@ -3,16 +3,19 @@
 <head>
   <title>led color picker</title>
   <link rel="stylesheet" href="/static/css/main.css" />
-  <link rel="stylesheet" href="static/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css" />
+  <!-- <link rel="stylesheet" href="static/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css" /> -->
 
   <script type="text/javascript" src="/static/bower_components/jquery/dist/jquery.slim.min.js"></script>
   <script type="text/javascript" src="/static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="static/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+  <!-- <script type="text/javascript" src="/static/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script> -->
+  <script type="text/javascript" src="/static/bower_components/socket.io-client/dist/socket.io.slim.min.js"></script>
   <script type="text/javascript" src="/static/js/main.js"></script>
 
 </head>
 <body>
   <h1>Choose a color</h1>
-  <div id="nanio-colorpicker"></div>
+  <div id="nanio-colorpicker">
+    <canvas id="colorpicker"></canvas>
+  </div>
 </body>
 </html>
